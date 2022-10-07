@@ -1,0 +1,8 @@
+prefix=/home/zhifeishen/ur5_realsense_calibration_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/zhifeishen/ur5_realsense_calibration_ws/src/ur5_realsense_calibration/usb_cam/include
+Libs: -L${prefix}/lib -lusb_cam
+Requires: 

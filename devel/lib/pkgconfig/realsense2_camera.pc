@@ -1,0 +1,8 @@
+prefix=/home/zhifeishen/ur5_realsense_calibration_ws/devel
+
+Name: realsense2_camera
+Description: Description of realsense2_camera
+Version: 2.3.2
+Cflags: -I/home/zhifeishen/ur5_realsense_calibration_ws/devel/include -I/home/zhifeishen/ur5_realsense_calibration_ws/src/ur5_realsense_calibration/realsense-ros/realsense2_camera/include
+Libs: -L${prefix}/lib -lrealsense2_camera
+Requires: message_runtime roscpp sensor_msgs std_msgs nodelet cv_bridge image_transport ddynamic_reconfigure nav_msgs

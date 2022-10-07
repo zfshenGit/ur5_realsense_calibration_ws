@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/zhifeishen/ur5_realsense_calibration_ws/src
+# Build directory: /home/zhifeishen/ur5_realsense_calibration_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(gtest)
+subdirs(ur5_realsense_calibration/aruco_ros/aruco)
+subdirs(ur5_realsense_calibration/realsense-ros/realsense2_description)
+subdirs(ur5_realsense_calibration/easy_handeye/rqt_easy_handeye)
+subdirs(ur5_realsense_calibration/aruco_ros/aruco_msgs)
+subdirs(ur5_realsense_calibration/universal_robot/universal_robot)
+subdirs(ur5_realsense_calibration/universal_robot/universal_robots)
+subdirs(ur5_realsense_calibration/universal_robot/ur_description)
+subdirs(ur5_realsense_calibration/universal_robot/ur_e_description)
+subdirs(ur5_realsense_calibration/universal_robot/ur_msgs)
+subdirs(ur5_realsense_calibration/vision_visp/vision_visp)
+subdirs(ur5_realsense_calibration/calibration)
+subdirs(ur5_realsense_calibration/ddynamic_reconfigure)
+subdirs(ur5_realsense_calibration/aruco_ros/aruco_ros)
+subdirs(ur5_realsense_calibration/realsense-ros/realsense2_camera)
+subdirs(ur5_realsense_calibration/rgbd_launch)
+subdirs(ur5_realsense_calibration/universal_robot/ur_bringup)
+subdirs(ur5_realsense_calibration/universal_robot/ur_e_gazebo)
+subdirs(ur5_realsense_calibration/universal_robot/ur_gazebo)
+subdirs(ur5_realsense_calibration/universal_robot/ur_modern_driver)
+subdirs(ur5_realsense_calibration/universal_robot/ur_kinematics)
+subdirs(ur5_realsense_calibration/usb_cam)
+subdirs(ur5_realsense_calibration/vision_visp/visp_bridge)
+subdirs(ur5_realsense_calibration/vision_visp/visp_camera_calibration)
+subdirs(ur5_realsense_calibration/vision_visp/visp_hand2eye_calibration)
+subdirs(ur5_realsense_calibration/easy_handeye/easy_handeye)
+subdirs(ur5_realsense_calibration/vision_visp/visp_tracker)
+subdirs(ur5_realsense_calibration/vision_visp/visp_auto_tracker)
+subdirs(ur5_realsense_calibration/universal_robot/ur5_e_moveit_config)
+subdirs(ur5_realsense_calibration/universal_robot/ur5_moveit_config)

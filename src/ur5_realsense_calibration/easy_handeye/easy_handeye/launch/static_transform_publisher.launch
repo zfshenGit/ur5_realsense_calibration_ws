@@ -1,0 +1,3 @@
+<launch>  
+<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.19756179645445612 -0.03613948701504936 0.03230021786486216 -0.107910692078159 0.6991947576041219 -0.07498359070512646 0.7027513319795929 ee_link camera_color_frame 100" />
+</launch>

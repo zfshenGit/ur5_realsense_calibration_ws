@@ -1,0 +1,8 @@
+prefix=/home/zhifeishen/ur5_realsense_calibration_ws/devel
+
+Name: aruco_ros
+Description: Description of aruco_ros
+Version: 0.2.3
+Cflags: -I/home/zhifeishen/ur5_realsense_calibration_ws/devel/include -I/home/zhifeishen/ur5_realsense_calibration_ws/src/ur5_realsense_calibration/aruco_ros/aruco_ros/include
+Libs: -L${prefix}/lib -laruco_ros_utils
+Requires: aruco sensor_msgs tf

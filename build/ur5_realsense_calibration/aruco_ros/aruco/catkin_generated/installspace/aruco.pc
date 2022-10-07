@@ -1,0 +1,8 @@
+prefix=/home/zhifeishen/ur5_realsense_calibration_ws/install
+
+Name: aruco
+Description: Description of aruco
+Version: 0.2.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -laruco
+Requires: 
